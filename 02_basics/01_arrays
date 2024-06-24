@@ -1,0 +1,33 @@
+const arr = [1,2,3,4]
+
+const arr2 = new Array(1,2,3)
+
+arr.push(5)
+
+console.log(arr);
+
+arr.pop()
+
+console.log(arr);
+
+arr.unshift(9)
+
+console.log(arr)
+
+arr.shift()
+
+console.log(arr.includes(9));
+console.log(arr.indexOf(3));
+
+// convert arr to string 
+const newArr = arr.join()
+console.log(newArr);
+
+
+const myn1 = arr.slice(1,2)
+console.log("A ", arr)
+console.log(myn1);
+
+const myn2 = arr.splice(1,2)
+console.log("B ", arr)
+console.log(myn2);
