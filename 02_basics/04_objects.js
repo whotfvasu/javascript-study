@@ -29,3 +29,37 @@ const User = [
 console.log(User[1].name);
 
 console.log(Object.keys(regUser))
+
+// directly accessing value from object
+
+const course = {
+    title: "javascript",
+    price: 200
+
+}
+
+const {title} = course
+
+console.log(title);
+
+//we can further reduce the name of the key 
+
+const {price : p} = course
+console.log(p);
+
+// this is called destructuring of object
+
+
+//api responses are generated in form of json 
+
+// {
+//     "coursename": "js",
+//     "price": 200
+// }
+
+// it can also be in form of array of objects
+
+// [
+//     {}
+//     {}
+// ]
